@@ -6,7 +6,7 @@ namespace _2a
     {
         static void Main(string[] args)
         {
-            int n = 0, sum = 0, score = 0, highest = Int32.MinValue, lowest = Int32.MaxValue, convertedNumber = 0;
+            int n = 0, sum = 0, highest = Int32.MinValue, lowest = Int32.MaxValue, convertedNumber = 0;
 
             string[] numbers = System.IO.File.ReadAllText
             (@"C:\Users\yip\learning-csharp\IFAssignments\2a\data2.txt").Split(' ');
