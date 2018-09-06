@@ -25,6 +25,7 @@ namespace _2a
             Console.Write("Sum of numbers: "); Console.Write(sum); Console.Write("\n");
             Console.Write("Highest: "); Console.Write(highest); Console.Write("\n");
             Console.Write("Lowest: "); Console.Write(lowest); Console.Write("\n");
+            Console.Write("Average: "); Console.Write(sum / n); Console.Write("\n");
             Console.ReadKey();
         }
     }
